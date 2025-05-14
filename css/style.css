@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.headerText{
+    text-align: left;
+    width: 100%;
+    border-radius: 15px;
+    color: aliceblue;
+    padding: 15px 20px 15px;
+    margin: 20px 0px;
+    background-color: #4973fe;
+}
+
+.section1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 167px;
+}
+
+.section2 {
+    
+}
+
+input {
+    border-color: #7494ff;
+    border: none;
+    border: solid 2px #7494ff ;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 260px;
+    height: 35px;
+}
+
+input:focus {
+    transition: all 200ms ease;
+    border: solid 2px #2356ff ;
+    transform: scale(1.02);
+}
+
+.SearchNameCon{
+
+}
+.Search_input-name{
+
+}
+.CategoriesCon{
+    display: flex;
+    list-style-type: none;
+}
+.CategoriesList{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.CategoryList{
+    background-color: #2395ff;
+    text-align: center;
+    height: 35px;
+    line-height: 33px;
+    width: 7rem;
+    border-radius: 12px;
+}
+
+.clickCategory {
+    background-color: white;
+    border: solid 2px #2395ff;
+    line-height: 31px;
+}
+
+.CategoryList:hover {
+    background-color: #afd8ff;
+    transform: scale(1.05);
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.SearchPriceCon{
+
+}
+.Search_input-price{
+
+}
+.ProductsCon {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 6rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ProductCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: 1px 1px 45px -11px rgba(169, 169, 169, 0.61);
+}
+
+
+
+
+.ProductImg{
+    width: 80%;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+.ProductInfoCon{
+    align-self: self-start;
+    padding-left: 30px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.ProductName{
+
+}
+.ProductPrice{
+    background-color: #2356ff;
+    border-radius: 8px;
+    width: 3.5rem;
+    height: 1.5rem;
+    text-align: center;
+}

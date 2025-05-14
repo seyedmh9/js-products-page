@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botostart JS Project</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="headerText">Hexioa.ir | Product Page</h1>
+      </div>  
+    </header>
+    <main>
+        <div class="container main">
+        <section class="section1">
+          <div class="SearchNameCon">
+            <input type="text" class="Search_input-name" placeholder="Search Name">
+          </div>
+          <div class="CategoriesCon">
+            <ul class="CategoriesList">
+              <li class="CategoryList" data-category-name = "All">All</li>
+              <li class="CategoryList" data-category-name = "Tech">Tech</li>
+              <li class="CategoryList" data-category-name = "Clothing">Clothing</li>
+              <li class="CategoryList" data-category-name = "Health">Health</li>
+            </ul>
+          </div>
+          <div class="SearchPriceCon">
+            <input type="number" class="Search_input-price" placeholder="Search Price">
+          </div>
+        </section>
+        <section class="section2">
+          <div class="ProductsCon">
+            <div class="ProductCon" data-category="Tech">
+              <img src="./img/iphone.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Apple iphone 14 pro</p>
+                <span class="ProductPrice">$ 1499</span>
+              </div>
+            </div>
+            <div class="ProductCon" data-category="Clothing">
+              <img src="./img/shoes.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Running shoes</p>
+                <span class="ProductPrice">$ 199</span>
+              </div>
+            </div>
+            <div class="ProductCon" data-category="Tech">
+              <img src="./img/watch.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Apple watch</p>
+                <span class="ProductPrice">$ 399</span>
+              </div>
+            </div>
+
+            <div class="ProductCon" data-category="Clothing">
+              <img src="./img/bag.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Collage Bag</p>
+                <span class="ProductPrice">$ 139</span>
+              </div>
+            </div>
+
+            <div class="ProductCon" data-category="Clothing">
+              <img src="./img/jacket.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Boy`s Jachet</p>
+                <span class="ProductPrice">$ 169</span>
+              </div>
+            </div>
+
+            <div class="ProductCon" date-category="Health">
+              <img src="./img/shampoo.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Keratin Hair Care</p>
+                <span class="ProductPrice">$ 39</span>
+              </div>
+            </div>
+
+            <div class="ProductCon" data-category="Tech">
+              <img src="./img/airpods.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Apple airpods pro</p>
+                <span class="ProductPrice">$ 299</span>
+              </div>
+            </div>
+
+            <div class="ProductCon" data-category="Health">
+              <img src="./img/vitamin.png" alt="" class="ProductImg">
+              <div class="ProductInfoCon">
+                <p class="ProductName">Vitamin E</p>
+                <span class="ProductPrice">$ 39</span>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
