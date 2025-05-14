@@ -2,7 +2,7 @@
 
 A simple product page built with vanilla JavaScript and no external frameworks. Users can search and filter products based on **name**, **price**, and **category**.
 
-## ✨ Features
+## Features
 
 - Live search by product name  
 - Price-based filtering  
